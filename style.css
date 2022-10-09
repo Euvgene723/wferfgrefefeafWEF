@@ -1,0 +1,169 @@
+
+.bumazhka{
+    border: 2px solid red;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+header{
+    background-color:  black;
+    border: 2px solid red;
+   
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px
+}
+.menu-link{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+}
+.table-list{
+    display: flex;
+}
+.table-list li{
+    padding-left: 20px;
+}
+.photo{
+    height: 45px;
+}
+.bumazhka{
+    height: 320px;
+}
+
+.interested_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+.section{
+    background-color: black;
+    color:white;
+    border-bottom: 2px solid red;
+}
+.mix-class{
+    text-align: center;
+    width: 100%;
+
+}
+.title{
+    font-size: 18;
+}
+.mix-class li{
+    list-style: none;
+
+}
+.list__price{
+    font-weight:bolder;
+    line-height: 26px;
+}
+.submit__logo{
+    font-size: 21px;
+    border: 3px solid black;
+    border-radius: 11px;
+    padding: 4px 12px;
+    background-color: red;
+text-transform: uppercase;
+     
+}
+.tittle{
+    font-size: 21px;
+}
+.eiphoria{
+    height: 500px;
+   border: 2px solid red;
+    
+}
+.Name{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: center;
+}
+.content__page2{
+    display: flex;
+justify-content: space-between;
+}
+.text-photo{
+    padding-left: 40px;
+}
+.text__itm{
+    font-size: 20px;
+}
+.form{
+    text-align: center;
+    color: white;
+    
+    
+    }
+.input{
+    border: none;
+    background-color: black;
+    line-height: 21px;
+    font-size: 18px;
+
+    }
+    .form input{
+        color: white;
+    }
+    .input::placeholder{
+        text-align: center;
+        color: white;
+
+    }
+    .button-type{
+        margin:40px auto;
+        
+    }
+    .button{
+        
+        color: white;
+        background-color: red;
+        border-radius: 25px;
+        padding: 18px 21px;
+        font-size: 14px;
+
+    }
+    @media(max-width:1223px){
+        .content__page2{
+            flex-wrap: wrap;
+         }
+         .eiphoria{
+            height: 280px;
+         }
+         .images{margin:0 auto;
+        }
+
+            
+         
+    }
+    @media(max-width:1200px){
+        .menu-inner{width: 100%;}
+        .interested_content{width: 100%;}
+
+
+    }
+    @media(max-width:997px){
+.bumazhka{
+    display: none;
+}    
+    }
+
+
+
+@media(max-width:512px){
+    .menu{font-size: 12px;}
+    .photo{height: 30px;}
+}
+    
+
+
